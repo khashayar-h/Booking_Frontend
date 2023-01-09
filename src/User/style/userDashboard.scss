@@ -1,0 +1,18 @@
+@import "../../style/default.scss";
+
+.card {
+    h4 {
+      background-color: $coler_1;
+      color: $white;
+      font-size: 18px;
+    }
+    .list-group {
+      .list-group-item {
+        font-size: 13px;
+        span {
+          background-color: $coler_1 !important;
+          color: $white;
+        }
+      }
+    }
+  }

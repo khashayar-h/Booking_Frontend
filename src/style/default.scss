@@ -1,0 +1,53 @@
+$black: #262b2c;
+$coler_1: #31525b;
+$coler_2: #fae6b1;
+$coler_3: #ffa101;
+$white: #fef7dd;
+
+.footer,
+.navbar {
+  background-color: $coler_1 !important;
+  p {
+    color: $white !important;
+  }
+  h5 {
+    color: $coler_3 !important;
+    // font-weight: bold;
+    
+  }
+}
+
+.container {
+  background-color: $coler_1;
+}
+.titr{
+  color: $coler_3;
+  font-weight: bold;
+}
+.button {
+  color: $coler_3 !important;
+  border: 1px solid $coler_3 !important;
+  background-color: inherit;
+  border-radius: 3px;
+}
+.button:hover {
+  background-color: $coler_3 !important;
+  color: $coler_1 !important;
+}
+.button:focus {
+  box-shadow: none !important;
+}
+.auth {
+  background-color: $white;
+}
+.form-control:focus {
+  border-color: $coler_3 !important;
+  box-shadow: none !important;
+  background-color: $coler_2 !important;
+}
+.form-control::placeholder {
+  font-size: 10px !important;
+}
+.sr-only{
+  color: $black !important;
+}
